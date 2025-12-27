@@ -8,7 +8,7 @@
 \backcite {ISOIEC9126}{{25}{1.1}{section.1.1}}
 \backcite {ISOIEC25010}{{25}{1.1}{section.1.1}}
 \backcite {isoiec27001}{{25}{1.1}{section.1.1}}
-\backcite {isoiec27034}{{26}{1.1}{section.1.1}}
+\backcite {isoiec27034}{{25}{1.1}{section.1.1}}
 \backcite {owaspsamm}{{26}{1.1}{section.1.1}}
 \backcite {owasptop10_2021}{{26}{1.1}{section.1.1}}
 \backcite {cwe}{{26}{1.1}{section.1.1}}
@@ -29,8 +29,6 @@
 \backcite {Basili1994}{{28}{1}{table.1.1}}
 \backcite {Basili1994}{{28}{1}{figure.1.1}}
 \backcite {Wohlin:2012:ESE:2349018}{{30}{1.6.1}{figure.1.3}}
-\backcite {yin2015estudo}{{30}{1.6.1}{figure.1.3}}
-\backcite {10.1007/s10664-008-9102-8}{{30}{1.6.1}{figure.1.3}}
 \backcite {gqm}{{30}{1.6.1}{figure.1.3}}
 \backcite {kitchenham2007guidelines}{{30}{1.6.1}{figure.1.3}}
 \backcite {pai_clinical_2004}{{30}{1.6.1}{figure.1.3}}
