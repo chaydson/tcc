@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.7.8)  27 DEC 2025 18:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.7.8)  27 DEC 2025 18:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1575,16 +1575,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [68]
 Underfull \vbox (badness 1038) has occurred while \output is active []
 
- [69] [70{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}] [71]) (./editaveis/execucaoestudo.tex [72] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+ [69] [70{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}] [71]) (./editaveis/execucaoestudo.tex [72]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 8.
+ (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 14.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 14.
- (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [73
+ [73
 
-] [74] [75]
+] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+) [74] [75]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1592,9 +1597,9 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 pdfTeX warning (ext4): destination with the same identifier (name{table.5.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.176  
+l.179  
                   elif "dependencies" in pkg_lock:]) (./editaveis/resultadosestudo.tex [78]
-<figuras/grafico_brakeman.png, id=1276, 716.4366pt x 426.1521pt>
+<figuras/grafico_brakeman.png, id=1279, 716.4366pt x 426.1521pt>
 File: figuras/grafico_brakeman.png Graphic file (type png)
 <use figuras/grafico_brakeman.png>
 Package pdftex.def Info: figuras/grafico_brakeman.png  used on input line 17.
@@ -1610,7 +1615,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [79
 
 ]
-<figuras/grafico_zap.png, id=1283, 715.473pt x 426.1521pt>
+<figuras/grafico_zap.png, id=1286, 715.473pt x 426.1521pt>
 File: figuras/grafico_zap.png Graphic file (type png)
 <use figuras/grafico_zap.png>
 Package pdftex.def Info: figuras/grafico_zap.png  used on input line 27.
@@ -1629,7 +1634,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.6.14}) 
                                                   \__shipout_drop_firstpage_...
 l.31 
       <./figuras/grafico_brakeman.png>]
-<figuras/grafico_trivy.png, id=1290, 860.7357pt x 498.4221pt>
+<figuras/grafico_trivy.png, id=1293, 860.7357pt x 498.4221pt>
 File: figuras/grafico_trivy.png Graphic file (type png)
 <use figuras/grafico_trivy.png>
 Package pdftex.def Info: figuras/grafico_trivy.png  used on input line 38.
@@ -1648,7 +1653,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.6.15}) 
                                                   \__shipout_drop_firstpage_...
 l.43 
       <./figuras/grafico_zap.png>]
-<figuras/densidade_de_falhas.png, id=1299, 856.1586pt x 426.393pt>
+<figuras/densidade_de_falhas.png, id=1302, 856.1586pt x 426.393pt>
 File: figuras/densidade_de_falhas.png Graphic file (type png)
 <use figuras/densidade_de_falhas.png>
 Package pdftex.def Info: figuras/densidade_de_falhas.png  used on input line 55.
@@ -1675,7 +1680,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.6.17}) 
                                                   \__shipout_drop_firstpage_...
 l.67 
       <./figuras/densidade_de_falhas.png>]
-<figuras/estabilidade_da_pipeline.png, id=1316, 855.4359pt x 426.393pt>
+<figuras/estabilidade_da_pipeline.png, id=1319, 855.4359pt x 426.393pt>
 File: figuras/estabilidade_da_pipeline.png Graphic file (type png)
 <use figuras/estabilidade_da_pipeline.png>
 Package pdftex.def Info: figuras/estabilidade_da_pipeline.png  used on input line 77.
@@ -1828,18 +1833,18 @@ Package rerunfilecheck Info: File `tcc.brf' has not changed.
 (rerunfilecheck)             Checksum: 99E91F571FC1BE16250A9CA559663428;8303.
  ) 
 Here is how much of TeX's memory you used:
- 31887 strings out of 474222
- 567494 string characters out of 5748734
- 2227975 words of memory out of 5000000
- 52961 multiletter control sequences out of 15000+600000
+ 31972 strings out of 474222
+ 568626 string characters out of 5748734
+ 2217975 words of memory out of 5000000
+ 53040 multiletter control sequences out of 15000+600000
  652504 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 104i,13n,107p,1516b,2225s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbo10.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso17.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on tcc.pdf (100 pages, 3525219 bytes).
+ 104i,13n,107p,1516b,2166s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbo10.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso17.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
+Output written on tcc.pdf (100 pages, 3546710 bytes).
 PDF statistics:
- 2037 PDF objects out of 2073 (max. 8388607)
- 1856 compressed objects within 19 object streams
- 488 named destinations out of 1000 (max. 500000)
+ 2043 PDF objects out of 2073 (max. 8388607)
+ 1861 compressed objects within 19 object streams
+ 490 named destinations out of 1000 (max. 500000)
  760 words of extra memory for PDF output out of 10000 (max. 10000000)
 

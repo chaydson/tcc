@@ -58,8 +58,8 @@
 \contentsline {section}{\numberline {4.9}Instrumentação}{71}{section.4.9}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Execução do Estudo de Caso}}{73}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Configuração da Pipeline de CI/CD Localmente}{73}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Elaboração dos Scripts para Automação da Coleta de Dados}{74}{section.5.2}%
+\contentsline {section}{\numberline {5.1}Configuração do \textit {Pipeline} de CI/CD Localmente}{73}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Elaboração dos \textit {Scripts} para Automação da Coleta de Dados}{74}{section.5.2}%
 \contentsline {section}{\numberline {5.3}Consolidação dos Dados Coletados}{76}{section.5.3}%
 \contentsline {section}{\numberline {5.4}Aplicação do Questionário}{78}{section.5.4}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
