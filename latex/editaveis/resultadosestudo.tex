@@ -1,90 +1,90 @@
 \chapter[Resultados do Estudo de Caso]{Resultados do Estudo de Caso}
 \label{chap:resultados-estudo-caso}
 
-Neste capítulo, são apresentados os resultados obtidos a partir do estudo de caso realizado. A análise dos dados coletados é detalhada, destacando as métricas calculadas e os principais insights relevantes obtidos com o estudo.
+Neste capítulo, são apresentados os resultados obtidos a partir do estudo de caso realizado. A análise dos dados coletados é detalhada, destacando as métricas calculadas e os principais \textit{insights} relevantes obtidos com o estudo.
 
 \section{Análise dos Dados} 
 
 
 \subsection{Identificação de Vulnerabilidades de Segurança} 
-Retomando a questão específica QE-1 definida na subseção \ref{sec:questoes-caso}: A aplicação de práticas DevSecOps permitiu identificar vulnerabilidades de segurança sob as perspectivas da qualidade interna e externa do produto?
+Retomando a questão específica QE-1 definida na Subseção \ref{sec:questoes-caso}: "A aplicação de práticas \textit{DevSecOps} permitiu identificar vulnerabilidades de segurança sob as perspectivas da qualidade interna e externa do produto?"
 
-Com a Figura \ref{fig:grafico-brakeman}, é possível observar a média de vulnerabilidades identificadas pelo Brakeman (ferramenta SAST) por merge ao longo do período analisado. Ela representa a Métrica 1.1 - Média de vulnerabilidades encontradas por ferramentas SAST, por nível de severidade, por merge definida na subseção \ref{sec:questoes-caso}. As vulnerabilidades de criticidade Weak estão representadas no gráfico, porém elas não são consideradas para o cálculo do indicador, conforme detalhado na subseção \ref{sec:questoes-caso}. Isso se deu, para permitir uma análise mais abrangente das vulnerabilidades identificadas pela ferramenta, mesmo que elas não sejam consideradas relevantes para o indicador.
+Com a Figura \ref{fig:grafico-brakeman}, é possível observar a média de vulnerabilidades identificadas pelo Brakeman (ferramenta SAST) por \textit{merge} ao longo do período analisado. Ela representa a Métrica 1.1 - Média de vulnerabilidades encontradas por ferramentas SAST, por nível de severidade, por \textit{merge}, definida na Subseção \ref{sec:questoes-caso}. As vulnerabilidades de criticidade \textit{Weak} estão representadas no gráfico, porém elas não são consideradas para o cálculo do indicador, conforme detalhado na Subseção \ref{sec:questoes-caso}. Isso se deu para permitir uma análise mais abrangente das vulnerabilidades identificadas pela ferramenta, mesmo que elas não sejam consideradas relevantes para o indicador.
 
 \begin{figure}[H]
     \centering
-	\caption{SAST - Média de Vulnerabilidades por Merge}
+    \caption{SAST - Média de Vulnerabilidades por \textit{Merge}}
     \includegraphics[width=1.1\textwidth]{figuras/grafico_brakeman.png}
     \label{fig:grafico-brakeman}
-	Fonte: Autor
+    Fonte: Autor
 \end{figure}
 
-A Figura \ref{fig:grafico-zap} está relacionada à Métrica 1.2 - Média de vulnerabilidades encontradas por ferramentas DAST, por nível de severidade, por merge, e apresenta a média de vulnerabilidades identificadas pelo ZAP (ferramenta DAST) por merge ao longo do período analisado. Nesse caso, não foram encontradas vulnerabilidades de criticidade alta, porém a ferramenta identificou vulnerabilidades de criticidade baixar e de caráter informacional. Essas vulnerabilidades também estão representadas no gráfico, mas não são consideradas para o cálculo do indicador, conforme detalhado na subseção \ref{sec:questoes-caso}. Assim como no caso do Brakeman, essa inclusão visa proporcionar uma visão mais completa das vulnerabilidades detectadas pela ferramenta.
+A Figura \ref{fig:grafico-zap} está relacionada à Métrica 1.2 - Média de vulnerabilidades encontradas por ferramentas DAST, por nível de severidade, por \textit{merge}, e apresenta a média de vulnerabilidades identificadas pelo ZAP (ferramenta DAST) por \textit{merge} ao longo do período analisado. Nesse caso, não foram encontradas vulnerabilidades de criticidade alta, porém a ferramenta identificou vulnerabilidades de criticidade baixa e de caráter informativo. Essas vulnerabilidades também estão representadas no gráfico, mas não são consideradas para o cálculo do indicador, conforme detalhado na Subseção \ref{sec:questoes-caso}. Assim como no caso do Brakeman, essa inclusão visa proporcionar uma visão mais completa das vulnerabilidades detectadas pela ferramenta.
 
 \begin{figure}[H]
     \centering
-	\caption{DAST - Média de Vulnerabilidades por Merge}
+    \caption{DAST - Média de Vulnerabilidades por \textit{Merge}}
     \includegraphics[width=1.1\textwidth]{figuras/grafico_zap.png}
     \label{fig:grafico-zap}
-	Fonte: Autor
+    Fonte: Autor
 \end{figure}
 
 
-Diferentemente das outras figuras, a Figura \ref{fig:grafico-trivy} não está diretamente relacionada a uma métrica. Ela apresenta a média de vulnerabilidades identificadas pelo Trivy (ferramenta SCA) por merge ao longo do período analisado. Essa análise é importante para complementar a compreensão das vulnerabilidades presentes no sistema, uma vez que por meio dele é possível identificar a quantidade de vulnerabilidades por diferentes níveis de criticidade nas bibliotecas utilizadas no projeto.
+Diferentemente das outras figuras, a Figura \ref{fig:grafico-trivy} não está diretamente relacionada a uma métrica. Ela apresenta a média de vulnerabilidades identificadas pelo Trivy (ferramenta SCA) por \textit{merge} ao longo do período analisado. Essa análise é importante para complementar a compreensão das vulnerabilidades presentes no sistema, uma vez que por meio dele é possível identificar a quantidade de vulnerabilidades por diferentes níveis de criticidade nas bibliotecas utilizadas no projeto.
 
 \begin{figure}[H]
     \centering
-	\caption{SCA - Média de Vulnerabilidades por Merge}
+    \caption{SCA - Média de Vulnerabilidades por \textit{Merge}}
     \includegraphics[width=1.1\textwidth]{figuras/grafico_trivy.png}
 
     \label{fig:grafico-trivy}
-	Fonte: Autor
+    Fonte: Autor
 \end{figure}
  
 
-Já a Figura \ref{fig:grafico-densidade-falhas}, relacionada à Métrica 1.3 - Proporção de vulnerabilidades em bibliotecas encontradas por ferramentas SCA, por nível de severidade, por merge, apresenta a proporção de bibliotecas com vulnerabilidades em relação ao total de bibliotecas utilizadas no projeto por merge ao longo do período analisado. A linha vermelha representa a porcentagem de bibliotecas com vulnerabilidades de criticidade média ou superior, enquanto a o área azul representa o total de bibliotecas do projeto.
+Já a Figura \ref{fig:grafico-densidade-falhas}, relacionada à Métrica 1.3 - Proporção de vulnerabilidades em bibliotecas encontradas por ferramentas SCA, por nível de severidade, por \textit{merge}, apresenta a proporção de bibliotecas com vulnerabilidades em relação ao total de bibliotecas utilizadas no projeto por \textit{merge} ao longo do período analisado. A linha vermelha representa a porcentagem de bibliotecas com vulnerabilidades de criticidade média ou superior, enquanto a área azul representa o total de bibliotecas do projeto.
 
-A análise dessa métrica ao longo do tempo permite avaliar a eficácia das práticas de gerenciamento de dependências e a adoção de medidas para mitigar riscos associados a bibliotecas vulneráveis. Apesar da pequena redução, 0,1\%, observada na proporção de bibliotecas vulneráveis ao longo do período analisado, é importante destacar que a métrica ainda indica uma presença significativa de vulnerabilidades nas dependências do projeto, aproximadamente 26,4\% das bibliotecas foram marcadas pelo Trivy com vulnerabilidades médias ou superiores.
+A análise dessa métrica ao longo do tempo permite avaliar a eficácia das práticas de gerenciamento de dependências e a adoção de medidas para mitigar riscos associados a bibliotecas vulneráveis. Apesar da pequena redução, 0,1\%, observada na proporção de bibliotecas vulneráveis ao longo do período analisado, é importante destacar que a métrica ainda indica uma presença significativa de vulnerabilidades nas dependências do projeto: aproximadamente 26,4\% das bibliotecas foram marcadas pelo Trivy com vulnerabilidades médias ou superiores.
 
-O gerencimento de bibliotecas é fundamental, pois até grandes projetos são sucetíveis abrir brechas na segurança, como por exemplo o \citeonline{react2025Vulnerability} divulgou a vulnerabilidade CVE-2025-55182 que permite execução não autenticada de código remotamente em aplicações que utilizam a biblioteca React nas versões 19.0, 19.1.0, 19.1.1, and 19.2.0.
+O gerenciamento de bibliotecas é fundamental, pois até grandes projetos são suscetíveis a abrir brechas na segurança. Como exemplo, \citeonline{react2025Vulnerability} divulgou a vulnerabilidade CVE-2025-55182, que permite execução não autenticada de código remotamente em aplicações que utilizam a biblioteca React nas versões 19.0, 19.1.0, 19.1.1 e 19.2.0.
 
 
 \begin{figure}[H]
     \centering
-	\caption{Proporção de Bibliotecas com Vulnerabilidades por Merge}
+    \caption{Proporção de Bibliotecas com Vulnerabilidades por \textit{Merge}}
     \includegraphics[width=1.1\textwidth]{figuras/densidade_de_falhas.png}
 
     \label{fig:grafico-densidade-falhas}
-	Fonte: Autor
+    Fonte: Autor
 \end{figure}
 
-Observa-se que, apesar de algumas variações, as médias de vulnerabilidades por merge tendem a se manter relativamente estáveis ao longo do tempo. Isso indica que as práticas DevSecOps implementadas estão contribuindo para a identificação consistente de vulnerabilidades, tanto na qualidade interna (SAST e SCA) quanto na qualidade externa (DAST) do produto. Um dos motivos para essa estabilidade foi a priorização do time em relação às vulnerabilidades encontradas, pois não foi possível observar a sprint em que as correções foram realizadas, apenas o momento em que foram detectadas.
+Observa-se que, apesar de algumas variações, as médias de vulnerabilidades por \textit{merge} tendem a se manter relativamente estáveis ao longo do tempo. Isso indica que as práticas \textit{DevSecOps} implementadas estão contribuindo para a identificação consistente de vulnerabilidades, tanto na qualidade interna (SAST e SCA) quanto na qualidade externa (DAST) do produto. Um dos motivos para essa estabilidade foi a priorização do time em relação às vulnerabilidades encontradas, pois não foi possível observar a \textit{sprint} em que as correções foram realizadas, apenas o momento em que foram detectadas.
 
-Além disso, as vulnerabilidades não foram analisadas pelo time de segurança, apenas reportadas, o que pode ter impactado a priorização e a correção das mesmas. Isso reforça a importância de uma abordagem contínua e integrada de segurança no ciclo de desenvolvimento, alinhada aos princípios DevSecOps, para garantir a identificação e mitigação eficaz de vulnerabilidades ao longo do tempo. Outro fator impactado por esse fato é a quantidade de falsos positivos, que não foi possível analisar, mas que pode ter influenciado os dados e, posteriormente, a resolução desses problemas de segurança. Ainda sobre falsos positivos, vale destacar que a escolha de continuar com o uso da ferramenta brakeman partiu do time de segurança, pois, segundo a experiência empírica dos mesmos, por ela ser específica para aplicações desenvolvidas em Ruby on Rails a quantidade de falsos positivos seria menor.
+Além disso, as vulnerabilidades não foram analisadas pelo time de segurança, apenas reportadas, o que pode ter impactado a priorização e a correção das mesmas. Isso reforça a importância de uma abordagem contínua e integrada de segurança no ciclo de desenvolvimento, alinhada aos princípios \textit{DevSecOps}, para garantir a identificação e mitigação eficaz de vulnerabilidades ao longo do tempo. Outro fator impactado por esse fato é a quantidade de falsos positivos, que não foi possível analisar, mas que pode ter influenciado os dados e, posteriormente, a resolução desses problemas de segurança. Ainda sobre falsos positivos, vale destacar que a escolha de continuar com o uso da ferramenta Brakeman partiu do time de segurança, pois, segundo a experiência empírica da equipe, por ela ser específica para aplicações desenvolvidas em \textit{Ruby on Rails}, a quantidade de falsos positivos seria menor.
 
 \subsection{Análise Automática da Segurança e Tomada de Decisões} 
-Na seção \ref{sec:questoes-caso}, foi levantada a questão específica QE-2: A análise automática da segurança do pipeline e as métricas coletadas ajudaram na tomada de decisões relacionadas ao projeto?
+Na Seção \ref{sec:questoes-caso}, foi levantada a questão específica QE-2: "A análise automática da segurança do \textit{pipeline} e as métricas coletadas ajudaram na tomada de decisões relacionadas ao projeto?"
 
-Para responder a essa questão, foi analisada a métrica 2.1, relacionada à estabilidade da pipeline de CI/CD, conforme detalhado a seguir. A Figura \ref{fig:grafico-estabilidade-pipeline} apresenta as taxas de aviso ou falha na pipeline por quinzena ao longo do período analisado.
+Para responder a essa questão, foi analisada a Métrica 2.1, relacionada à estabilidade do \textit{pipeline} de CI/CD, conforme detalhado a seguir. A Figura \ref{fig:grafico-estabilidade-pipeline} apresenta as taxas de aviso ou falha no \textit{pipeline} por quinzena ao longo do período analisado.
 
-Como foram implementadas ferramentas que analisaram aspectos do sistema que até então não tinham sido submetidos a esse tipo de análise, SCA com Trivy, DAST com ZAP e SAST no projeto inteiro com o Brakeman, e o time de desenvolvimento não teve tempo hábil para corrigir todas as vulnerabilidades encontradas, é possível observar que a pipeline encontrou falhas de segurança em todas as suas execuções. No entanto, é importante destacar que essas variações refletem o processo de adaptação do time de desenvolvimento às novas práticas DevSecOps implementadas e que, conforme a cultura do time for se integrando ao novo modo de enxergar a segurança, é provável que eles consigam reduzir esses índices.
+Como foram implementadas ferramentas que analisaram aspectos do sistema que até então não tinham sido submetidos a esse tipo de análise — SCA com Trivy, DAST com ZAP e SAST no projeto inteiro com o Brakeman — e o time de desenvolvimento não teve tempo hábil para corrigir todas as vulnerabilidades encontradas, é possível observar que o \textit{pipeline} encontrou falhas de segurança em todas as suas execuções. No entanto, é importante destacar que essas variações refletem o processo de adaptação do time de desenvolvimento às novas práticas \textit{DevSecOps} implementadas e que, conforme a cultura do time for se integrando ao novo modo de enxergar a segurança, é provável que eles consigam reduzir esses índices.
 
-De todo modo, o conjunto de métricas DevOps Dora \cite{DORA2024} indica que uma taxa de falhas em torno de 20\% é considerada média performance. Com isso, observa-se que a pipeline do projeto Brasil Participativo está classificada como de baixa performance, o que reforça a necessidade de melhorias contínuas no processo de desenvolvimento e na integração das práticas DevSecOps.
+De todo modo, o conjunto de métricas \textit{DevOps} DORA \cite{DORA2024} indica que uma taxa de falhas em torno de 20\% é considerada de média \textit{performance}. Com isso, observa-se que o \textit{pipeline} do projeto Brasil Participativo está classificado como de baixa \textit{performance}, o que reforça a necessidade de melhorias contínuas no processo de desenvolvimento e na integração das práticas \textit{DevSecOps}.
 
 \begin{figure}[H]
     \centering
-	\caption{Taxas de Aviso ou Falha por Quinzena}
+    \caption{Taxas de Aviso ou Falha por Quinzena}
     \includegraphics[width=1.1\textwidth]{figuras/estabilidade_da_pipeline.png}
 
     \label{fig:grafico-estabilidade-pipeline}
-	Fonte: Autor
+    Fonte: Autor
 \end{figure}
 
 \section{Análise do Indicador} 
 
-Retomando a questão específica QE-1: A aplicação de práticas DevSecOps permitiu identificar vulnerabilidades de segurança sob as perspectivas da qualidade interna e externa do produto?
+Retomando a questão específica QE-1: "A aplicação de práticas \textit{DevSecOps} permitiu identificar vulnerabilidades de segurança sob as perspectivas da qualidade interna e externa do produto?"
 
-As métricas 1.1 e 1.2, fornecem os dados necessários para realizar o cálculo da métrica B.34 - Security Incidents Trend da norma \citeonline{ISO27004} que fornece um método e valores de referência para avaliar a tendência da segurança de um sistema ao longo do tempo. Observando as informações das Figuras \ref{fig:grafico-brakeman} e \ref{fig:grafico-zap} é possível extraír os dados necessários para realizar o cálculo dessas métricas.
+As métricas 1.1 e 1.2 fornecem os dados necessários para realizar o cálculo da métrica B.34 - \textit{Security Incidents Trend} da norma \citeonline{ISO27004}, que fornece um método e valores de referência para avaliar a tendência da segurança de um sistema ao longo do tempo. Observando as informações das Figuras \ref{fig:grafico-brakeman} e \ref{fig:grafico-zap} é possível extrair os dados necessários para realizar o cálculo dessas métricas.
 
 Os critérios de classificação de tendência foram definidos conforme a \citeonline{ISO27004}:
 \begin{itemize}
@@ -101,8 +101,8 @@ Os critérios de classificação de tendência foram definidos conforme a \citeo
         \toprule
         \textbf{Categoria} & \textbf{Média Hist. (6)} & \textbf{Média Rec. (2)} & \textbf{Razão ($R$)} & \textbf{Status} \\
         \midrule
-        High   & 5.77 & 5.30 & 0.92 & \textcolor{green!60!black}{\textbf{Verde}} \\
-        Medium & 8.00 & 8.00 & 1.00 & \textcolor{yellow!80!black}{\textbf{Amarelo}} \\
+        \textit{High}   & 5.77 & 5.30 & 0.92 & \textcolor{green!60!black}{\textbf{Verde}} \\
+        \textit{Medium} & 8.00 & 8.00 & 1.00 & \textcolor{yellow!80!black}{\textbf{Amarelo}} \\
         \bottomrule
     \end{tabular}
     \small{\\ Fonte: Autor}
@@ -116,54 +116,53 @@ Os critérios de classificação de tendência foram definidos conforme a \citeo
         \toprule
         \textbf{Categoria} & \textbf{Média Hist. (6)} & \textbf{Média Rec. (2)} & \textbf{Razão ($R$)} & \textbf{Status} \\
         \midrule
-        Medium & 24.68 & 26.15 & 1.06 & \textcolor{yellow!80!black}{\textbf{Amarelo}} \\
+        \textit{Medium} & 24.68 & 26.15 & 1.06 & \textcolor{yellow!80!black}{\textbf{Amarelo}} \\
         \bottomrule
     \end{tabular}
     \small{\\ Fonte: Autor}
 \end{table}
 
-Pode-se perceber que a análise de tendência das vulnerabilidades identificadas pelas ferramentas SAST e DAST, respectivamente ilustrada pela Tabela \ref{tab:sast-trend} e Tabela \ref{tab:dast-trend}, indica uma estabilidade na segurança do software ao longo do tempo, sendo que as vulnerabilidades de alta criticidade identificadas pelo Brakeman apresentaram uma ligeira queda. Esses resultados fornecem insights valiosos para a equipe de desenvolvimento e segurança, permitindo que eles monitorem e priorizem as demandas de segurança do software.
+Pode-se perceber que a análise de tendência das vulnerabilidades identificadas pelas ferramentas SAST e DAST, respectivamente ilustrada pela Tabela \ref{tab:sast-trend} e Tabela \ref{tab:dast-trend}, indica uma estabilidade na segurança do \textit{software} ao longo do tempo, sendo que as vulnerabilidades de alta criticidade identificadas pelo Brakeman apresentaram uma ligeira queda. Esses resultados fornecem \textit{insights} valiosos para a equipe de desenvolvimento e segurança, permitindo que eles monitorem e priorizem as demandas de segurança do \textit{software}.
 
 \section{Ameaças à Validade do Estudo}
 
 Conforme destacado por \citeonline{Runeson2009}, é essencial considerar as ameaças à validade desde o início da pesquisa para garantir a confiabilidade dos resultados. Nesta seção, são identificadas as principais ameaças à validade deste estudo de caso e as estratégias adotadas para sua mitigação.
 
-Há quatro preocupações centrais para avaliar a qualidade dos resultados obtidos em uma pesquisa. São conhecidas como testes às ameaças: de constructo; interna, externa e de confiabilidade.  Ao conduzir estudos de caso, podemos aplicar diversas estratégias para atender a esses testes. Contudo, nem todas essas estratégias são usadas apenas na fase de planejamento formal. Algumas delas são aplicadas durante a coleta e análise dos dados, ou mesmo nas etapas de estruturação da pesquisa \cite{yin2015estudo}.
+Há quatro preocupações centrais para avaliar a qualidade dos resultados obtidos em uma pesquisa. São conhecidas como testes às ameaças: de constructo, interna, externa e de confiabilidade. Ao conduzir estudos de caso, podemos aplicar diversas estratégias para atender a esses testes. Contudo, nem todas essas estratégias são usadas apenas na fase de planejamento formal. Algumas delas são aplicadas durante a coleta e análise dos dados, ou mesmo nas etapas de estruturação da pesquisa \cite{yin2015estudo}.
 
 \subsection{Ameaças à Validade do Constructo}
 
-A ameça a validade do constructo diz respeito a capacidade do pesquisador intrepretar as alterações e variações, observadas na execução do estudo de caso de forma a garantir fidedignamente a representação da realidade. Em outras palavras, o pesquisador precisa garantir que os eventos observados \textit{in loco}, realmente refletem o fenômeno de forma inequívoca, ou se aconteceram apenas com base nas impressões do pesquisador.
+A ameaça à validade do constructo diz respeito à capacidade do pesquisador interpretar as alterações e variações observadas na execução do estudo de caso de forma a garantir fidedignamente a representação da realidade. Em outras palavras, o pesquisador precisa garantir que os eventos observados \textit{in loco} realmente refletem o fenômeno de forma inequívoca, ou se aconteceram apenas com base nas impressões do pesquisador.
 
-Para realizar esse teste, o pesquisador o pesquisador precisa assegurar o cumprir duas etapas:
+Para realizar esse teste, o pesquisador precisa assegurar o cumprimento de duas etapas:
 
 \begin{enumerate}
   \item selecionar os tipos específicos de mudanças que devem ser estudadas;
-  \item demonstrar que as medidas operacionais selecionadas  fornecem uma percepção quantitativa dessas mudanças e que, são corretas para os conceitos que estão sob estudo.;
+  \item demonstrar que as medidas operacionais selecionadas fornecem uma percepção quantitativa dessas mudanças e que são corretas para os conceitos que estão sob estudo.
 \end{enumerate}
 
 
-Dessa maneira, as medidas selecionadas podem não capturar completamente os aspectos de segurança que se pretende avaliar. Para mitigar essa ameaça, foram selecionadas medidas baseadas em modelos e normas de referência na literatura, como a \citeonline{ISO27004} e estudos que apresentam evidências experimentais dos seus "achados" como discuto por \citeonline{Zhang2024160317}.
+Dessa maneira, as medidas selecionadas podem não capturar completamente os aspectos de segurança que se pretende avaliar. Para mitigar essa ameaça, foram selecionadas medidas baseadas em modelos e normas de referência na literatura, como a \citeonline{ISO27004}, e estudos que apresentam evidências experimentais dos seus "achados", como discutido por \citeonline{Zhang2024160317}.
 
-Além disso, para garantir esse alinhamento, foi adotada a abordagem GQM detalhada na subseção \ref{sec:qp_principal}. Com isso, há uma questão de pesquisa principal, norteadora de todo o trabalho e há outras questões específicas, secundárias, da revisão estruturada da literatura e do estudo de caso. Essas questões possuem suas respectivas métricas que que por sua vez, auxiliam a quantificar ou qualificar as percepções da segurança, por meio os dados coletados e analisados.
+Além disso, para garantir esse alinhamento, foi adotada a abordagem GQM detalhada na Seção \ref{sec:qp_principal}. Com isso, há uma questão de pesquisa principal, norteadora de todo o trabalho e há outras questões específicas, secundárias, da revisão estruturada da literatura e do estudo de caso. Essas questões possuem suas respectivas métricas que, por sua vez, auxiliam a quantificar ou qualificar as percepções da segurança, por meio os dados coletados e analisados.
 
 \subsection{Ameaças à Validade Interna}
 
-As ameaças a validade interna tratam das relações de causalidade. Portanto, analisa a relação de causa e efeito entre as variáveis observadas.
+As ameaças à validade interna tratam das relações de causalidade. Portanto, analisam a relação de causa e efeito entre as variáveis observadas.
 
-Por se tratar de um estudo do tipo exploratório, que procura observar e compreender um fenômeno específico, ocorrendo em seu ambiente real, o foco é a perpeção de todo o contexto. Por isso,  esse teste não se aplica a esta pesquisa. \cite{yin2015estudo}. 
+Por se tratar de um estudo do tipo exploratório, que procura observar e compreender um fenômeno específico ocorrendo em seu ambiente real, o foco é a percepção de todo o contexto. Por isso, esse teste não se aplica a esta pesquisa \cite{yin2015estudo}. 
 
 \subsection{Ameaças à Validade Externa}
 
-A validade externa, por sua vez, refere-se ao grau de generalização dos resultados observados. Estudos de caso costumam ser criticados em virtude do baixo poder de generalização dos seus resultados, principalmente em comparação a análises quantitativas. No entanto, essa analogia, que considera amostra e população é equivocada quando se fala em estudos de caso \cite{yin2015estudo}.
+A validade externa, por sua vez, refere-se ao grau de generalização dos resultados observados. Estudos de caso costumam ser criticados em virtude do baixo poder de generalização dos seus resultados, principalmente em comparação a análises quantitativas. No entanto, essa analogia, que considera amostra e população, é equivocada quando se fala em estudos de caso \cite{yin2015estudo}.
 
-Análises puramente quantitativas utilizam a generalização estatística em que uma amostra, se bem representada, pode ser facilmente estendida a uma população maior. Já nos estudos de caso, o objetivo do pesquisador é usar um conjunto específico de resultados para corroborar ou expandir uma teoria mais abrangente, em vez de aplicá-los diretamente a um universo estatístico. \cite{yin2015estudo}
+Análises puramente quantitativas utilizam a generalização estatística em que uma amostra, se bem representada, pode ser facilmente estendida a uma população maior. Já nos estudos de caso, o objetivo do pesquisador é usar um conjunto específico de resultados para corroborar ou expandir uma teoria mais abrangente, em vez de aplicá-los diretamente a um universo estatístico \cite{yin2015estudo}.
 
-Este estudo está limitado a um caso único, o projeto Brasil Participativo, que possui características específicas que podem não ser compatíveis ou aplicáveis em outros sistemas de software ou contextos. Embora as conclusões sejam específicas deste caso, como forma de mitigar essa ameaça, toda a descrição metodológica e documentação necessária para a compreensão das singularidades do caso Brasil Participativo estarão disponíveis em reposítórios públicos. Dessa forma, outros pesquisadores podem analisar a viabilidade da replicação dos resultados em seus contextos específicos.
+Este estudo está limitado a um caso único, o projeto Brasil Participativo, que possui características específicas que podem não ser compatíveis ou aplicáveis em outros sistemas de \textit{software} ou contextos. Embora as conclusões sejam específicas deste caso, como forma de mitigar essa ameaça, toda a descrição metodológica e documentação necessária para a compreensão das singularidades do caso Brasil Participativo estarão disponíveis em repositórios públicos. Dessa forma, outros pesquisadores podem analisar a viabilidade da replicação dos resultados em seus contextos específicos.
 
 
 \subsection{Ameaças à Confiabilidade}
 
-Por fim, a ameaça a confiabilidade refere-se a capacidade de repodução dos procedimentos por outros pesquisadores. Com isso,  verifica-se se os resultados observados são consistentes, caso a reprodução obtenha os mesmos resultados \cite{yin2015estudo} \cite{Wohlin:2012:ESE:2349018}.
+Por fim, a ameaça à confiabilidade refere-se à capacidade de reprodução dos procedimentos por outros pesquisadores. Com isso, verifica-se se os resultados observados são consistentes, caso a reprodução obtenha os mesmos resultados \cite{yin2015estudo} \cite{Wohlin:2012:ESE:2349018}.
 
-Variações na forma como os dados são coletados e analisados podem afetar os resultados. Para mitigar essa ameaça, serão fornecidas informações detalhadas sobre o produto, o processo, o contexto, o time de desenvolvimento, o conjunto de dados coletados e analisados, além do código-fonte e scripts utilizados na construção do tratamento proposto. Todas essas informações estão disponíveis em repositórios públicos. Estão estabelecidos procedimentos claros e automatizados para a coleta de dados, minimizando a intervenção manual e sistematizando a análise. Além disso, todas as ferramentas utilizadas na instrumentação são produtos de software de código-fonte livre ou aberto.
-
+Variações na forma como os dados são coletados e analisados podem afetar os resultados. Para mitigar essa ameaça, serão fornecidas informações detalhadas sobre o produto, o processo, o contexto, o time de desenvolvimento, o conjunto de dados coletados e analisados, além do código-fonte e \textit{scripts} utilizados na construção do tratamento proposto. Todas essas informações estão disponíveis em repositórios públicos. Estão estabelecidos procedimentos claros e automatizados para a coleta de dados, minimizando a intervenção manual e sistematizando a análise. Além disso, todas as ferramentas utilizadas na instrumentação são produtos de \textit{software} de código-fonte livre ou aberto.
