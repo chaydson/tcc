@@ -521,6 +521,7 @@ INPUT ./tcc.toc
 INPUT tcc.toc
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmssbo10.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmss10.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmsso12.tfm
 INPUT ./editaveis/introducao.tex
 INPUT ./editaveis/introducao.tex
 INPUT ./editaveis/introducao.tex
@@ -572,6 +573,7 @@ INPUT ./editaveis/revisaodaliteratura.tex
 INPUT ./editaveis/revisaodaliteratura.tex
 INPUT ./editaveis/revisaodaliteratura.tex
 INPUT editaveis/revisaodaliteratura.tex
+INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmsso12.tfm
 INPUT ./figuras/pico.png
 INPUT ./figuras/pico.png
 INPUT ./figuras/pico.png
@@ -712,6 +714,7 @@ INPUT /usr/share/texmf/fonts/type1/public/lm/lmss12.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmss17.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmssbo10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb
+INPUT /usr/share/texmf/fonts/type1/public/lm/lmsso12.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmsso17.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb

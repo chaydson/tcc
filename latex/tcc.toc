@@ -31,17 +31,17 @@
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Revisão Estruturada da Literatura}}{45}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Protocolo}{45}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}String de Busca}{45}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.1}\textit {String} de Busca}{45}{subsection.3.1.1}%
 \contentsline {section}{\numberline {3.2}Seleção dos Artigos}{48}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Resultados}{53}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Quais práticas de DevSecOps são mais prevalentes nas organizações?}{54}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Quais modelos de segurança são mais comumente aplicados em ambientes DevSecOps?}{55}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.1}Quais práticas de \textit {DevSecOps} são mais prevalentes nas organizações?}{54}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Quais modelos de segurança são mais comumente aplicados em ambientes \textit {DevSecOps}?}{55}{subsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.3.3}Quais medidas são comumente usadas para aferição de segurança?}{56}{subsection.3.3.3}%
 \contentsline {subsection}{\numberline {3.3.4}Como as práticas de segurança são avaliadas?}{57}{subsection.3.3.4}%
 \contentsline {subsection}{\numberline {3.3.5}De que maneiras as medidas de segurança são avaliadas nas organizações?}{57}{subsection.3.3.5}%
-\contentsline {subsection}{\numberline {3.3.6}Que tipos de vulnerabilidades são mitigadas pelas práticas de \linebreak DevSecOps?}{58}{subsection.3.3.6}%
-\contentsline {subsection}{\numberline {3.3.7}Quais ferramentas e tecnologias são usadas no DevSecOps?}{58}{subsection.3.3.7}%
-\contentsline {subsection}{\numberline {3.3.8}Qual é o volume anual de publicações sobre DevSecOps de 2009 a 2025?}{59}{subsection.3.3.8}%
+\contentsline {subsection}{\numberline {3.3.6}Que tipos de vulnerabilidades são mitigados pelas práticas de \linebreak \textit {DevSecOps}?}{58}{subsection.3.3.6}%
+\contentsline {subsection}{\numberline {3.3.7}Quais ferramentas e tecnologias são usadas no \textit {DevSecOps}?}{58}{subsection.3.3.7}%
+\contentsline {subsection}{\numberline {3.3.8}Qual é o volume anual de publicações sobre \textit {DevSecOps} de 2009 a 2025?}{59}{subsection.3.3.8}%
 \contentsline {subsection}{\numberline {3.3.9}Quantos artigos foram publicados em periódicos acadêmicos?}{59}{subsection.3.3.9}%
 \contentsline {subsection}{\numberline {3.3.10}Quantos estudos têm validação experimental?}{60}{subsection.3.3.10}%
 \contentsline {subsection}{\numberline {3.3.11}Caso o estudo tenha validação experimental, qual foi o tipo?}{61}{subsection.3.3.11}%
