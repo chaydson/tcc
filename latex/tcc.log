@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.7.8)  27 DEC 2025 18:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.7.8)  27 DEC 2025 18:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1171,6 +1171,9 @@ l.2
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}] [20
 
 ]) (./fixos/indiceAutomatico.tex (./tcc.toc
+LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <12> not available
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 21.
+
 Underfull \hbox (badness 7468) in paragraph at lines 42--42
  [][] [][][]\T1/lmss/m/n/12 Que ti-pos de vul-ne-ra-bi-li-da-des s�o mi-ti-ga-das pe-las pr�-ti-cas de 
  []
@@ -1190,7 +1193,7 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [27]
-<figuras/GQM.png, id=451, 1666.225pt x 307.1475pt>
+<figuras/GQM.png, id=452, 1666.225pt x 307.1475pt>
 File: figuras/GQM.png Graphic file (type png)
 <use figuras/GQM.png>
 Package pdftex.def Info: figuras/GQM.png  used on input line 68.
@@ -1206,12 +1209,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}) h
                                                   \__shipout_drop_firstpage_...
 l.81     \item I
                 ncorporar um conjunto de práticas \textit{DevSecOps} ao cic... <./figuras/GQM.png>] [29]
-<figuras/fluxo-atividades.png, id=474, 1445.4pt x 813.0375pt>
+<figuras/fluxo-atividades.png, id=475, 1445.4pt x 813.0375pt>
 File: figuras/fluxo-atividades.png Graphic file (type png)
 <use figuras/fluxo-atividades.png>
 Package pdftex.def Info: figuras/fluxo-atividades.png  used on input line 111.
 (pdftex.def)             Requested size: 455.0pt x 255.93448pt.
-<figuras/cronograma.png, id=475, 1445.4pt x 813.0375pt>
+<figuras/cronograma.png, id=476, 1445.4pt x 813.0375pt>
 File: figuras/cronograma.png Graphic file (type png)
 <use figuras/cronograma.png>
 Package pdftex.def Info: figuras/cronograma.png  used on input line 120.
@@ -1226,7 +1229,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1.2}) h
                                                   \__shipout_drop_firstpage_...
 l.131     \item A
                  nálise do Material Selecionado: Leitura completa dos artig... <./figuras/fluxo-atividades.png (PNG copy)>]
-<figuras/fluxograma-segunda-etapa.png, id=498, 1445.4pt x 813.0375pt>
+<figuras/fluxograma-segunda-etapa.png, id=499, 1445.4pt x 813.0375pt>
 File: figuras/fluxograma-segunda-etapa.png Graphic file (type png)
 <use figuras/fluxograma-segunda-etapa.png>
 Package pdftex.def Info: figuras/fluxograma-segunda-etapa.png  used on input line 145.
@@ -1235,7 +1238,7 @@ Package pdftex.def Info: figuras/fluxograma-segunda-etapa.png  used on input lin
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figuras/cronograma-tcc-2.png, id=499, 1445.4pt x 813.0375pt>
+<figuras/cronograma-tcc-2.png, id=500, 1445.4pt x 813.0375pt>
 File: figuras/cronograma-tcc-2.png Graphic file (type png)
 <use figuras/cronograma-tcc-2.png>
 Package pdftex.def Info: figuras/cronograma-tcc-2.png  used on input line 154.
@@ -1265,7 +1268,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1.5}) h
 l.1 \chapter
             [Referencial Teórico]{Referencial Teórico} <./figuras/cronograma-tcc-2.png (PNG copy)>] [34
 
-] [35] [36] [37] [38] [39]
+]
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <17.28> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 6.
+ [35] [36] [37] [38]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [40] [41]
@@ -1274,7 +1283,7 @@ Underfull \vbox (badness 1867) has occurred while \output is active []
  [42]) (./editaveis/revisaodaliteratura.tex [43] [44
 
 ]
-<figuras/pico.png, id=705, 1002.74625pt x 966.61125pt>
+<figuras/pico.png, id=708, 1002.74625pt x 966.61125pt>
 File: figuras/pico.png Graphic file (type png)
 <use figuras/pico.png>
 Package pdftex.def Info: figuras/pico.png  used on input line 25.
@@ -1441,7 +1450,7 @@ Overfull \hbox (36.01765pt too wide) in alignment at lines 189--270
  []
 
 [50] [51] [52]
-<figuras/fluxograma-artigos.png, id=796, 770.88pt x 578.16pt>
+<figuras/fluxograma-artigos.png, id=799, 770.88pt x 578.16pt>
 File: figuras/fluxograma-artigos.png Graphic file (type png)
 <use figuras/fluxograma-artigos.png>
 Package pdftex.def Info: figuras/fluxograma-artigos.png  used on input line 277.
@@ -1479,12 +1488,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.3.5}) ha
                                                   \__shipout_drop_firstpage_...
 l.418     \item T
                  estes: SonarQube, FindBugs, Snyk, OWASP Dependency-Check, Z...]
-<figuras/volume-anual-artigos.png, id=902, 451.6875pt x 301.125pt>
+<figuras/volume-anual-artigos.png, id=905, 451.6875pt x 301.125pt>
 File: figuras/volume-anual-artigos.png Graphic file (type png)
 <use figuras/volume-anual-artigos.png>
 Package pdftex.def Info: figuras/volume-anual-artigos.png  used on input line 429.
 (pdftex.def)             Requested size: 318.49861pt x 212.34369pt.
-<figuras/artigos-publicados.png, id=904, 451.6875pt x 321.2pt>
+<figuras/artigos-publicados.png, id=907, 451.6875pt x 321.2pt>
 File: figuras/artigos-publicados.png Graphic file (type png)
 <use figuras/artigos-publicados.png>
 Package pdftex.def Info: figuras/artigos-publicados.png  used on input line 443.
@@ -1498,7 +1507,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.8}) h
                                                   \__shipout_drop_firstpage_...
 l.448 
        <./figuras/volume-anual-artigos.png>]
-<figuras/quantidade-experimental.png, id=912, 842.14626pt x 562.1pt>
+<figuras/quantidade-experimental.png, id=915, 842.14626pt x 562.1pt>
 File: figuras/quantidade-experimental.png Graphic file (type png)
 <use figuras/quantidade-experimental.png>
 Package pdftex.def Info: figuras/quantidade-experimental.png  used on input line 457.
@@ -1517,7 +1526,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.10}) 
                                                   \__shipout_drop_firstpage_...
 l.467 
        <./figuras/artigos-publicados.png> <./figuras/quantidade-experimental.png>]
-<figuras/tipos-validacao.png, id=920, 451.6875pt x 301.125pt>
+<figuras/tipos-validacao.png, id=923, 451.6875pt x 301.125pt>
 File: figuras/tipos-validacao.png Graphic file (type png)
 <use figuras/tipos-validacao.png>
 Package pdftex.def Info: figuras/tipos-validacao.png  used on input line 471.
@@ -1530,7 +1539,7 @@ l.1 \chapter
             [Planejamento do Estudo de Caso]{Planejamento do Estudo de Caso} <./figuras/tipos-validacao.png>] [62
 
 ] [63] [64]
-<figuras/organograma-equipes.png, id=979, 763.85374pt x 51.19125pt>
+<figuras/organograma-equipes.png, id=982, 763.85374pt x 51.19125pt>
 File: figuras/organograma-equipes.png Graphic file (type png)
 <use figuras/organograma-equipes.png>
 Package pdftex.def Info: figuras/organograma-equipes.png  used on input line 42.
@@ -1541,7 +1550,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.12}) 
                                                   \__shipout_drop_firstpage_...
 l.49 
       <./figuras/organograma-equipes.png>]
-<figuras/bpmn.png, id=994, 1445.4pt x 813.0375pt>
+<figuras/bpmn.png, id=997, 1445.4pt x 813.0375pt>
 File: figuras/bpmn.png Graphic file (type png)
 <use figuras/bpmn.png>
 Package pdftex.def Info: figuras/bpmn.png  used on input line 55.
@@ -1576,7 +1585,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.5.6}) ha
                                                   \__shipout_drop_firstpage_...
 l.176  
                   elif "dependencies" in pkg_lock:]) (./editaveis/resultadosestudo.tex [78]
-<figuras/grafico_brakeman.png, id=1272, 716.4366pt x 426.1521pt>
+<figuras/grafico_brakeman.png, id=1275, 716.4366pt x 426.1521pt>
 File: figuras/grafico_brakeman.png Graphic file (type png)
 <use figuras/grafico_brakeman.png>
 Package pdftex.def Info: figuras/grafico_brakeman.png  used on input line 17.
@@ -1592,7 +1601,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [79
 
 ]
-<figuras/grafico_zap.png, id=1279, 715.473pt x 426.1521pt>
+<figuras/grafico_zap.png, id=1282, 715.473pt x 426.1521pt>
 File: figuras/grafico_zap.png Graphic file (type png)
 <use figuras/grafico_zap.png>
 Package pdftex.def Info: figuras/grafico_zap.png  used on input line 27.
@@ -1611,7 +1620,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.6.14}) 
                                                   \__shipout_drop_firstpage_...
 l.31 
       <./figuras/grafico_brakeman.png>]
-<figuras/grafico_trivy.png, id=1286, 860.7357pt x 498.4221pt>
+<figuras/grafico_trivy.png, id=1289, 860.7357pt x 498.4221pt>
 File: figuras/grafico_trivy.png Graphic file (type png)
 <use figuras/grafico_trivy.png>
 Package pdftex.def Info: figuras/grafico_trivy.png  used on input line 38.
@@ -1630,7 +1639,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.6.15}) 
                                                   \__shipout_drop_firstpage_...
 l.43 
       <./figuras/grafico_zap.png>]
-<figuras/densidade_de_falhas.png, id=1295, 856.1586pt x 426.393pt>
+<figuras/densidade_de_falhas.png, id=1298, 856.1586pt x 426.393pt>
 File: figuras/densidade_de_falhas.png Graphic file (type png)
 <use figuras/densidade_de_falhas.png>
 Package pdftex.def Info: figuras/densidade_de_falhas.png  used on input line 55.
@@ -1657,7 +1666,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.6.17}) 
                                                   \__shipout_drop_firstpage_...
 l.67 
       <./figuras/densidade_de_falhas.png>]
-<figuras/estabilidade_da_pipeline.png, id=1312, 855.4359pt x 426.393pt>
+<figuras/estabilidade_da_pipeline.png, id=1315, 855.4359pt x 426.393pt>
 File: figuras/estabilidade_da_pipeline.png Graphic file (type png)
 <use figuras/estabilidade_da_pipeline.png>
 Package pdftex.def Info: figuras/estabilidade_da_pipeline.png  used on input line 77.
@@ -1807,21 +1816,21 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `tcc.brf' has not changed.
-(rerunfilecheck)             Checksum: 01D4AB0DCE05F3F259711303CC064F78;8303.
+(rerunfilecheck)             Checksum: 8949DE094CB42960CE342E58BD8C6A11;8303.
  ) 
 Here is how much of TeX's memory you used:
- 31871 strings out of 474222
- 567245 string characters out of 5748734
+ 31880 strings out of 474222
+ 567388 string characters out of 5748734
  2227975 words of memory out of 5000000
- 52952 multiletter control sequences out of 15000+600000
- 641259 words of font info for 82 fonts, out of 8000000 for 9000
+ 52957 multiletter control sequences out of 15000+600000
+ 646876 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  104i,13n,107p,1516b,2225s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on tcc.pdf (100 pages, 3451877 bytes).
+</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbo10.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso17.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
+Output written on tcc.pdf (100 pages, 3500289 bytes).
 PDF statistics:
- 2025 PDF objects out of 2073 (max. 8388607)
- 1847 compressed objects within 19 object streams
+ 2033 PDF objects out of 2073 (max. 8388607)
+ 1853 compressed objects within 19 object streams
  488 named destinations out of 1000 (max. 500000)
  760 words of extra memory for PDF output out of 10000 (max. 10000000)
 
