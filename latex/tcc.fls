@@ -500,6 +500,9 @@ INPUT tcc.lof
 INPUT ./tcc.lot
 INPUT ./tcc.lot
 INPUT tcc.lot
+INPUT ./tcc.loq
+INPUT ./tcc.loq
+INPUT tcc.loq
 INPUT ./editaveis/abreviaturas.tex
 INPUT ./editaveis/abreviaturas.tex
 INPUT ./editaveis/abreviaturas.tex
@@ -700,6 +703,7 @@ INPUT ./tcc.ind
 INPUT tcc.ind
 OUTPUT tcc.lof
 OUTPUT tcc.lot
+OUTPUT tcc.loq
 OUTPUT tcc.toc
 INPUT tcc.aux
 INPUT ./tcc.brf

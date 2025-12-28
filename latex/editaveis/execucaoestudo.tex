@@ -117,10 +117,10 @@ def parse_pipeline_logs(base_path):
 
 \section{Consolidação dos Dados Coletados}
 
-Conforme preconiza a medida \textit{Security Incidents Trend} - B.34 da norma \citeonline{ISO27004}, é necessário definir um intervalo temporal para observar o fenômeno estudado, calculando a média de cada período e comparando os dois mais recentes com os seis anteriores. Com base nessa diretriz, definiu-se que a janela de análise seria de 14 dias, contados retroativamente a partir do último dia da coleta (22/11/2025).
+Conforme preconiza a medida \textit{Security Incidents Trend} - B.34 da norma \citeonline{ISO27004}, é necessário definir um intervalo temporal para observar o fenômeno estudado, calculando a média de cada período e comparando os dois mais recentes com os seis anteriores. Com base nessa diretriz, definiu-se que a janela de análise seria de 14 dias, contados retroativamente a partir do último dia da coleta (22/11/2025), todos os períodos estão representados no Quadro \ref{tab:periodos-analisados}.
 A quantidade de dias foi escolhida depois de um alinhamento com o time de desenvolvimento, que indicou que ciclos quinzenais seriam mais adequados para observar as variações nas métricas de segurança, considerando o ritmo de desenvolvimento, demandas atuais e a possibilidade de analisar e, se possível, iniciar a correção das vulnerabilidades encontradas.
 
-\begin{table}[h]
+\begin{quadro}[h]
     \centering
     \caption{Períodos Analisados}
     \begin{tabular}{|p{2cm}|p{5cm}|}
@@ -144,7 +144,7 @@ A quantidade de dias foi escolhida depois de um alinhamento com o time de desenv
     \end{tabular} \\[0.5em]
     \label{tab:periodos-analisados}
     \small Fonte: Autor
-\end{table}
+\end{quadro}
 
 Posteriormente, os dados foram consolidados em uma linha do tempo que agrega as informações coletadas por cada um dos \textit{scripts} desenvolvidos. Para tal, um \textit{script} em \textit{Python} percorre os diretórios onde os dados extraídos foram armazenados e identifica a data de cada alteração. Em seguida, realiza-se o agrupamento das entregas em ciclos de 14 dias, utilizando a divisão inteira entre a data da alteração e a data de término da coleta.
 

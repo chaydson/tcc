@@ -3,83 +3,85 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{Lista de Quadros}{17}{section*.10}%
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase []{Introdução}}{25}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Contexto}{25}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Problema}{27}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Questão de Pesquisa}{28}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Objetivos}{28}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Estrutura do Trabalho}{29}{section.1.5}%
-\contentsline {section}{\numberline {1.6}Cronograma e Atividades}{30}{section.1.6}%
-\contentsline {subsection}{\numberline {1.6.1}Primeira Etapa}{30}{subsection.1.6.1}%
-\contentsline {subsection}{\numberline {1.6.2}Segunda Etapa}{31}{subsection.1.6.2}%
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase []{Introdução}}{27}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Contexto}{27}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Problema}{29}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Questão de Pesquisa}{30}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Objetivos}{30}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Estrutura do Trabalho}{31}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Cronograma e Atividades}{32}{section.1.6}%
+\contentsline {subsection}{\numberline {1.6.1}Primeira Etapa}{32}{subsection.1.6.1}%
+\contentsline {subsection}{\numberline {1.6.2}Segunda Etapa}{33}{subsection.1.6.2}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Referencial Teórico}}{35}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Engenharia de \textit {Software} Experimental}{35}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Estudo de Caso}{36}{subsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.1.1}Definição}{36}{subsubsection.2.1.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.1.2}Preparação e Coleta de Dados}{37}{subsubsection.2.1.1.2}%
-\contentsline {subsubsection}{\numberline {2.1.1.3}Análise de Dados Coletados}{37}{subsubsection.2.1.1.3}%
-\contentsline {subsubsection}{\numberline {2.1.1.4}Relato dos Resultados}{37}{subsubsection.2.1.1.4}%
-\contentsline {section}{\numberline {2.2}Modelos de Qualidade de \textit {Software}}{38}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Segurança de \textit {Software}}{40}{section.2.3}%
-\contentsline {section}{\numberline {2.4}\textit {DevOps}}{41}{section.2.4}%
-\contentsline {section}{\numberline {2.5}\textit {DevSecOps}}{42}{section.2.5}%
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Referencial Teórico}}{37}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Engenharia de \textit {Software} Experimental}{37}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Estudo de Caso}{38}{subsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.1.1}Definição}{38}{subsubsection.2.1.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.1.2}Preparação e Coleta de Dados}{39}{subsubsection.2.1.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.1.3}Análise de Dados Coletados}{39}{subsubsection.2.1.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.1.4}Relato dos Resultados}{39}{subsubsection.2.1.1.4}%
+\contentsline {section}{\numberline {2.2}Modelos de Qualidade de \textit {Software}}{40}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Segurança de \textit {Software}}{42}{section.2.3}%
+\contentsline {section}{\numberline {2.4}\textit {DevOps}}{43}{section.2.4}%
+\contentsline {section}{\numberline {2.5}\textit {DevSecOps}}{44}{section.2.5}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Revisão Estruturada da Literatura}}{45}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Protocolo}{45}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}\textit {String} de Busca}{45}{subsection.3.1.1}%
-\contentsline {section}{\numberline {3.2}Seleção dos Artigos}{48}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Resultados}{53}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Quais práticas de \textit {DevSecOps} são mais prevalentes nas organizações?}{54}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Quais modelos de segurança são mais comumente aplicados em ambientes \textit {DevSecOps}?}{55}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Quais medidas são comumente usadas para aferição de segurança?}{56}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Como as práticas de segurança são avaliadas?}{57}{subsection.3.3.4}%
-\contentsline {subsection}{\numberline {3.3.5}De que maneiras as medidas de segurança são avaliadas nas organizações?}{57}{subsection.3.3.5}%
-\contentsline {subsection}{\numberline {3.3.6}Que tipos de vulnerabilidades são mitigados pelas práticas de \linebreak \textit {DevSecOps}?}{58}{subsection.3.3.6}%
-\contentsline {subsection}{\numberline {3.3.7}Quais ferramentas e tecnologias são usadas no \textit {DevSecOps}?}{58}{subsection.3.3.7}%
-\contentsline {subsection}{\numberline {3.3.8}Qual é o volume anual de publicações sobre \textit {DevSecOps} de 2009 a 2025?}{59}{subsection.3.3.8}%
-\contentsline {subsection}{\numberline {3.3.9}Quantos artigos foram publicados em periódicos acadêmicos?}{59}{subsection.3.3.9}%
-\contentsline {subsection}{\numberline {3.3.10}Quantos estudos têm validação experimental?}{60}{subsection.3.3.10}%
-\contentsline {subsection}{\numberline {3.3.11}Caso o estudo tenha validação experimental, qual foi o tipo?}{61}{subsection.3.3.11}%
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Revisão Estruturada da Literatura}}{47}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Protocolo}{47}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}\textit {String} de Busca}{47}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}Seleção dos Artigos}{50}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Resultados}{55}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Quais práticas de \textit {DevSecOps} são mais prevalentes nas organizações?}{56}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Quais modelos de segurança são mais comumente aplicados em ambientes \textit {DevSecOps}?}{57}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Quais medidas são comumente usadas para aferição de segurança?}{58}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Como as práticas de segurança são avaliadas?}{59}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}De que maneiras as medidas de segurança são avaliadas nas organizações?}{59}{subsection.3.3.5}%
+\contentsline {subsection}{\numberline {3.3.6}Que tipos de vulnerabilidades são mitigados pelas práticas de \linebreak \textit {DevSecOps}?}{60}{subsection.3.3.6}%
+\contentsline {subsection}{\numberline {3.3.7}Quais ferramentas e tecnologias são usadas no \textit {DevSecOps}?}{60}{subsection.3.3.7}%
+\contentsline {subsection}{\numberline {3.3.8}Qual é o volume anual de publicações sobre \textit {DevSecOps} de 2009 a 2025?}{61}{subsection.3.3.8}%
+\contentsline {subsection}{\numberline {3.3.9}Quantos artigos foram publicados em periódicos acadêmicos?}{61}{subsection.3.3.9}%
+\contentsline {subsection}{\numberline {3.3.10}Quantos estudos têm validação experimental?}{62}{subsection.3.3.10}%
+\contentsline {subsection}{\numberline {3.3.11}Caso o estudo tenha validação experimental, qual foi o tipo?}{63}{subsection.3.3.11}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Planejamento do Estudo de Caso}}{63}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Definição}{63}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Objetivo}{64}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Caso}{64}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Trabalhos Relacionados}{67}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Questão de Pesquisa}{68}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Fonte de Dados}{69}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Unidades de Análise e Procedimentos}{69}{section.4.7}%
-\contentsline {section}{\numberline {4.8}Análise de Dados}{70}{section.4.8}%
-\contentsline {section}{\numberline {4.9}Instrumentação}{71}{section.4.9}%
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Planejamento do Estudo de Caso}}{65}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Definição}{65}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Objetivo}{66}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Caso}{66}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Trabalhos Relacionados}{69}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Questão de Pesquisa}{70}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Fonte de Dados}{71}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Unidades de Análise e Procedimentos}{71}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Análise de Dados}{72}{section.4.8}%
+\contentsline {section}{\numberline {4.9}Instrumentação}{73}{section.4.9}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Execução do Estudo de Caso}}{73}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Configuração do \textit {Pipeline} de CI/CD Localmente}{73}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Elaboração dos \textit {Scripts} para Automação da Coleta de Dados}{74}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Consolidação dos Dados Coletados}{76}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Aplicação do Questionário}{78}{section.5.4}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Execução do Estudo de Caso}}{75}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Configuração do \textit {Pipeline} de CI/CD Localmente}{75}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Elaboração dos \textit {Scripts} para Automação da Coleta de Dados}{76}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Consolidação dos Dados Coletados}{78}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Aplicação do Questionário}{80}{section.5.4}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase []{Resultados do Estudo de Caso}}{79}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Análise dos Dados}{79}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}Identificação de Vulnerabilidades de Segurança}{79}{subsection.6.1.1}%
-\contentsline {subsection}{\numberline {6.1.2}Análise Automática da Segurança e Tomada de Decisões}{84}{subsection.6.1.2}%
-\contentsline {section}{\numberline {6.2}Análise do Indicador}{85}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Ameaças à Validade do Estudo}{85}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Ameaças à Validade do Constructo}{86}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Ameaças à Validade Interna}{86}{subsection.6.3.2}%
-\contentsline {subsection}{\numberline {6.3.3}Ameaças à Validade Externa}{87}{subsection.6.3.3}%
-\contentsline {subsection}{\numberline {6.3.4}Ameaças à Confiabilidade}{87}{subsection.6.3.4}%
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase []{Resultados do Estudo de Caso}}{81}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Análise dos Dados}{81}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Identificação de Vulnerabilidades de Segurança}{81}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Análise Automática da Segurança e Tomada de Decisões}{86}{subsection.6.1.2}%
+\contentsline {section}{\numberline {6.2}Análise do Indicador}{87}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Ameaças à Validade do Estudo}{87}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Ameaças à Validade do Constructo}{88}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Ameaças à Validade Interna}{88}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}Ameaças à Validade Externa}{89}{subsection.6.3.3}%
+\contentsline {subsection}{\numberline {6.3.4}Ameaças à Confiabilidade}{89}{subsection.6.3.4}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase []{Conclusão}}{89}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Resultados Obtidos}{89}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Atividades Concluídas}{90}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Objetivos Específicos}{90}{section.7.3}%
-\contentsline {section}{\numberline {7.4}Limitações}{91}{section.7.4}%
-\contentsline {section}{\numberline {7.5}Trabalhos Futuros}{92}{section.7.5}%
+\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase []{Conclusão}}{91}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Resultados Obtidos}{91}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Atividades Concluídas}{92}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Objetivos Específicos}{92}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Limitações}{93}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Trabalhos Futuros}{94}{section.7.5}%
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{93}{section*.17}%
+\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{95}{section*.18}%

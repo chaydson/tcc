@@ -18,3 +18,16 @@
 \setlength{\parindent}{1.3cm}
 \setlength{\parskip}{0.2cm}  
 \makeindex
+\makeatletter
+\newcommand{\quadroname}{Quadro}
+\newcommand{\listofquadrosname}{Lista de Quadros}
+\newlistof{listofquadros}{loq}{\listofquadrosname}
+\newlistentry{quadro}{loq}{0}
+\counterwithout{quadro}{chapter}
+\renewcommand{\cftquadroname}{\quadroname\space}
+\renewcommand{\cftquadroaftersnum}{\space\textendash\space}
+\newfloat{quadro}{htbp}{loq} 
+\floatname{quadro}{\quadroname} 
+\floatstyle{plaintop}
+\restylefloat{quadro}
+\makeatother

@@ -23,9 +23,9 @@ Por essa razão, o protocolo PICO foi utilizado para guiar a elaboração de uma
     Fonte: Adaptado de \citeonline{Pai2004}
 \end{figure}
 
-Ao adaptar o modelo PICO para a Engenharia de \textit{Software}, suas definições adquirem um novo significado no contexto da Engenharia de \textit{Software}. Por exemplo, o termo \textbf{Paciente}, outrora usado para indicar o perfil do paciente, passa a representar a área de aplicação, ou amostra, neste caso, o desenvolvimento de \textit{software}. A \textbf{Intervenção} também sofre adaptação, deixando de significar "tratamento médico" para se referir às diferentes metodologias, métodos, técnicas ou procedimentos avaliados. Não obstante, \textbf{Resultados} mantém seu sentido original, referindo-se aos efeitos ou consequências observadas. Por fim, a \textbf{Comparação}, que está relacionada a investigar como a intervenção proposta se relaciona com outras propostas de intervenção, não pôde ser adotada, devido a estar muito mais alinhada com os objetivos da medicina que da engenharia de \textit{software}. Assim, as definições de cada um dos elementos usados do modelo estão apresentadas na Tabela \ref{tab:picoadaptado}.
+Ao adaptar o modelo PICO para a Engenharia de \textit{Software}, suas definições adquirem um novo significado no contexto da Engenharia de \textit{Software}. Por exemplo, o termo \textbf{Paciente}, outrora usado para indicar o perfil do paciente, passa a representar a área de aplicação, ou amostra, neste caso, o desenvolvimento de \textit{software}. A \textbf{Intervenção} também sofre adaptação, deixando de significar "tratamento médico" para se referir às diferentes metodologias, métodos, técnicas ou procedimentos avaliados. Não obstante, \textbf{Resultados} mantém seu sentido original, referindo-se aos efeitos ou consequências observadas. Por fim, a \textbf{Comparação}, que está relacionada a investigar como a intervenção proposta se relaciona com outras propostas de intervenção, não pôde ser adotada, devido a estar muito mais alinhada com os objetivos da medicina que da engenharia de \textit{software}. Assim, as definições de cada um dos elementos usados do modelo estão apresentadas no Quadro \ref{tab:picoadaptado}.
 
-\begin{table}[H]
+\begin{quadro}[H]
     \centering
     \caption{PICO Adaptado}
     \begin{tabular}{|p{4cm}|p{3cm}|p{5cm}|}
@@ -41,7 +41,7 @@ Ao adaptar o modelo PICO para a Engenharia de \textit{Software}, suas definiçõ
     \end{tabular} \\[0.5em]
     Fonte: Autor
     \label{tab:picoadaptado}
-\end{table}
+\end{quadro}
 
 Desta maneira, a \textit{string} de busca foi construída usando o operador lógico \textit{OR} entre os termos de cada elemento, com o objetivo de englobar todos os termos da pesquisa. Já o operador \textit{AND} foi usado para conectar os diferentes elementos do protocolo PICO, assim restringindo a busca apenas aos estudos que apresentam os termos necessários para responder às perguntas de pesquisa. Ademais, foram adicionados os termos próprios da base de dados Scopus para a realização da consulta, resultando na seguinte \textit{string} de busca:
 
@@ -52,22 +52,23 @@ Desta maneira, a \textit{string} de busca foi construída usando o operador lóg
 \section{Seleção dos Artigos}
 \label{sec:selecao-artigos}
 
-Com a \textit{string} de busca criada, foram estabelecidos os critérios de inclusão e exclusão visando selecionar apenas os artigos mais pertinentes ao contexto desta pesquisa. Além disso, em um primeiro momento, foram lidos o título, resumo e palavras-chave de todos os artigos resultantes da execução da \textit{string} de busca; isso se deu para selecionar com maior rigor aqueles estudos que porventura não correspondessem ao objetivo do trabalho. Posteriormente, os artigos aprovados pelos critérios de escolha foram lidos e os dados relevantes para responder às perguntas de pesquisa secundárias foram extraídos em um formulário. A Tabela \ref{tab:protocolo} contém o protocolo completo.
+Com a \textit{string} de busca criada, foram estabelecidos os critérios de inclusão e exclusão visando selecionar apenas os artigos mais pertinentes ao contexto desta pesquisa. Além disso, em um primeiro momento, foram lidos o título, resumo e palavras-chave de todos os artigos resultantes da execução da \textit{string} de busca; isso se deu para selecionar com maior rigor aqueles estudos que porventura não correspondessem ao objetivo do trabalho. Posteriormente, os artigos aprovados pelos critérios de escolha foram lidos e os dados relevantes para responder às perguntas de pesquisa secundárias foram extraídos em um formulário. O Quadro \ref{tab:protocolo} contém o protocolo completo.
 
 Ao todo foram analisados 291 artigos resultantes da \textit{string} de busca, onde 38 desses foram selecionados e lidos de maneira integral. Esses artigos foram obtidos na base de dados Scopus no dia 7 de maio de 2025. A fim de complementar os artigos selecionados por meio da \textit{string} de busca, foi realizada uma busca manual com o objetivo de responder de maneira mais assertiva às perguntas de pesquisa, resultando em mais dois artigos selecionados, \textit{Accelerate State of DevOps 2024} \cite{DORA2024} e \textit{Quantitative DevSecOps Metrics for Cloud-Based Web Microservices} \cite{Zhang2024160317}, usados para compor o referencial teórico, totalizando 40 artigos.
-Os artigos selecionados estão dispostos na Tabela \ref{tab:artigos-selecionados}. Para facilitar a compreensão do protocolo de seleção de artigos pode-se observar a Figura \ref{fig:fluxograma-artigos}, que ilustra todas as etapas explanadas anteriormente.
+Os artigos selecionados estão dispostos no Quadro \ref{tab:artigos-selecionados}. Para facilitar a compreensão do protocolo de seleção de artigos pode-se observar a Figura \ref{fig:fluxograma-artigos}, que ilustra todas as etapas explanadas anteriormente.
 
-
-\setlist{nosep} % listas mais compactas dentro das células
-
+\refstepcounter{quadro}
+\label{tab:protocolo}
+\addcontentsline{loq}{quadro}{\protect\numberline{\thequadro}{Protocolo de Busca}}
+\setlist{nosep}
 \begin{longtable}{|p{5cm}|p{10cm}|}
-    \caption{Protocolo de Busca}\label{tab:protocolo} \\
+    \caption*{Quadro \thequadro\ – Protocolo de Busca} \\
     \hline
     \textbf{Item} & \textbf{Descrição} \\
     \hline
     \endfirsthead
 
-    \multicolumn{2}{p{15cm}}{\centering \tablename\ \thetable{} -- Continuação} \\
+    \multicolumn{2}{p{15cm}}{\centering Quadro \thequadro\ -- Continuação} \\
     \hline
     \textbf{Item} & \textbf{Descrição} \\
     \hline
@@ -152,16 +153,19 @@ Os artigos selecionados estão dispostos na Tabela \ref{tab:artigos-selecionados
     \end{minipage} \\
     \hline
 \end{longtable}
+\addtocounter{table}{-1}
 
-
+\refstepcounter{quadro}
+\label{tab:artigos-selecionados}
+\addcontentsline{loq}{quadro}{\protect\numberline{\thequadro}{Artigos Selecionados}}
 \begin{longtable}{|p{1cm}|p{8cm}|p{3.5cm}|p{3cm}|}
-    \caption{Artigos Selecionados} \label{tab:artigos-selecionados} \\
+    \caption*{Quadro \thequadro\ – Artigos Selecionados} \\
     \hline
     \textbf{\textnumero{ N}} & \textbf{Título} & \textbf{Publicado em Revista} & \textbf{Validação Experimental} \\
     \hline
     \endfirsthead
     
-    \multicolumn{4}{c}{\tablename\ \thetable{} -- Continuação} \\
+    \multicolumn{4}{c}{\centering Quadro \thequadro\ -- Continuação} \\
     \hline
     \textbf{\textnumero} & \textbf{Título} & \textbf{Publicado em Revista} & \textbf{Validação Experimental} \\
     \hline
@@ -251,8 +255,7 @@ Os artigos selecionados estão dispostos na Tabela \ref{tab:artigos-selecionados
     \hline
     40 & Quantitative DevSecOps Metrics for Cloud-Based Web Microservices & Sim & Não \\
 \end{longtable}
-
-
+\addtocounter{table}{-1}
 
 \begin{figure}[H]
     \centering
@@ -348,9 +351,9 @@ Outra maneira de avaliar as medidas de segurança está relacionada ao quanto el
 
 \subsection{Que tipos de vulnerabilidades são mitigados pelas práticas de \linebreak \textit{DevSecOps}?}
 
-Existem diversos tipos de falhas de segurança que podem ocorrer durante o processo de desenvolvimento de \textit{software}, entre elas, falhas que podem extrapolar o escopo do trabalho, como as relacionadas ao \textit{hardware} utilizado. Por esse motivo, é necessário entender quais problemas de segurança são afetados pelas práticas \textit{DevSecOps}, pois, desse modo, será possível analisar de forma mais assertiva a repercussão da adoção dessa metodologia na qualidade da segurança. Na Tabela \ref{tab:vulnerabilidades}, foram listadas as principais vulnerabilidades impactadas por esse paradigma.
+Existem diversos tipos de falhas de segurança que podem ocorrer durante o processo de desenvolvimento de \textit{software}, entre elas, falhas que podem extrapolar o escopo do trabalho, como as relacionadas ao \textit{hardware} utilizado. Por esse motivo, é necessário entender quais problemas de segurança são afetados pelas práticas \textit{DevSecOps}, pois, desse modo, será possível analisar de forma mais assertiva a repercussão da adoção dessa metodologia na qualidade da segurança. No Quadro \ref{tab:vulnerabilidades}, foram listadas as principais vulnerabilidades impactadas por esse paradigma.
 
-\begin{table}[h]
+\begin{quadro}[h]
     \centering
     \caption{Vulnerabilidades Reduzidas}
     \begin{tabular}{|p{5cm}|p{8cm}|}
@@ -386,7 +389,7 @@ Existem diversos tipos de falhas de segurança que podem ocorrer durante o proce
     \end{tabular} \\[0.5em]
     \label{tab:vulnerabilidades}
     \small Fonte: Autor
-\end{table}
+\end{quadro}
 
 
 
