@@ -9,7 +9,7 @@ Primeiramente, é importante ressaltar a necessidade de desenvolver um método p
 
 Dessa forma, elaborou-se um \textit{script Shell} que executa individualmente cada etapa do \textit{pipeline}, uma vez que certas fases demandam adaptações para operarem localmente. Por exemplo, a etapa de análise estática exige variáveis e caminhos específicos devido ao uso de \textit{Docker in Docker} na configuração original. Já para a análise dinâmica, foi necessário implementar um \textit{health-check} para assegurar que a ferramenta inicie apenas quando o \textit{build} da versão analisada estiver ativo. Adicionalmente, o \textit{script} é responsável por organizar os resultados das análises em diretórios específicos, facilitando a posterior coleta de dados. Vale destacar que o \textit{script} também realiza os \textit{logs} de cada uma das etapas, armazenando-os em arquivos que auxiliam na identificação de falhas e na análise dos resultados.
 
-O Código \ref{lst:pipeline-local} apresenta os principais trechos do \textit{script} desenvolvido para a execução local do \textit{pipeline} de CI/CD.
+A Listagem \ref{lst:pipeline-local} apresenta os principais trechos do \textit{script} desenvolvido para a execução local do \textit{pipeline} de CI/CD.
 
 \begin{lstlisting}[language=Bash, caption={Shell Script para \textit{Pipeline} Local}, label={lst:pipeline-local}]
 #!/bin/bash
@@ -47,7 +47,7 @@ run_and_capture "DAST (ZAP Baseline)" \
 
 Para viabilizar a coleta do grande volume de dados gerado pela execução do \textit{pipeline} na unidade de análise escolhida, os \textit{Merge Requests} (MRs) integrados ao ramo principal do repositório, fez-se necessária a criação de \textit{scripts} que extraíssem automaticamente as informações de cada MR. Dessa forma, foram desenvolvidos \textit{scripts} em \textit{Python} para cada uma das ferramentas (SAST, SCA e DAST) utilizadas no \textit{pipeline}, visto que cada uma gera relatórios em formatos distintos, sendo preciso padronizar a extração para o cálculo das métricas.
 
-Esses \textit{scripts} seguem uma lógica comum, que consiste em acessar o diretório onde os relatórios estão armazenados, contabilizar a quantidade de vulnerabilidades por severidade (crítico, alto, médio e baixo) em cada \textit{merge} e consolidar essas informações em um \textit{DataFrame} Pandas. O Código \ref{lst:script-sast} exemplifica esse processo por meio do \textit{script} desenvolvido para a extração dos dados do SAST.
+Esses \textit{scripts} seguem uma lógica comum, que consiste em acessar o diretório onde os relatórios estão armazenados, contabilizar a quantidade de vulnerabilidades por severidade (crítico, alto, médio e baixo) em cada \textit{merge} e consolidar essas informações em um \textit{DataFrame} Pandas. A Listagem \ref{lst:script-sast} exemplifica esse processo por meio do \textit{script} desenvolvido para a extração dos dados do SAST.
 
 \begin{lstlisting}[language=Python, caption={Script de Extração (SAST)}, label={lst:script-sast}]
 def parse_brakeman(base_path):
@@ -78,7 +78,7 @@ def parse_brakeman(base_path):
             continue
 \end{lstlisting}
 
-Entretanto, para coletar os dados referentes ao resultado da execução do \textit{pipeline} o processo é diferente. Nesse caso, um \textit{script Python} acessa os \textit{logs} gerados por cada execução do \textit{pipeline} e verifica se as etapas executaram com sucesso ou falha, bem como se vulnerabilidades foram encontradas. Esses dados são então organizados em um \textit{DataFrame} Pandas para facilitar a análise posterior. O Código \ref{lst:script-logs} ilustra o processo de extração dos dados referentes ao resultado da execução.
+Entretanto, para coletar os dados referentes ao resultado da execução do \textit{pipeline} o processo é diferente. Nesse caso, um \textit{script Python} acessa os \textit{logs} gerados por cada execução do \textit{pipeline} e verifica se as etapas executaram com sucesso ou falha, bem como se vulnerabilidades foram encontradas. Esses dados são então organizados em um \textit{DataFrame} Pandas para facilitar a análise posterior. A Listagem \ref{lst:script-logs} ilustra o processo de extração dos dados referentes ao resultado da execução.
 
 \begin{lstlisting}[language=Python, caption={Script de Extração (Logs)}, label={lst:script-logs}]
 def parse_pipeline_logs(base_path):
@@ -148,7 +148,7 @@ A quantidade de dias foi escolhida depois de um alinhamento com o time de desenv
 
 Posteriormente, os dados foram consolidados em uma linha do tempo que agrega as informações coletadas por cada um dos \textit{scripts} desenvolvidos. Para tal, um \textit{script} em \textit{Python} percorre os diretórios onde os dados extraídos foram armazenados e identifica a data de cada alteração. Em seguida, realiza-se o agrupamento das entregas em ciclos de 14 dias, utilizando a divisão inteira entre a data da alteração e a data de término da coleta.
 
-Outro ponto a ser destacado é que, para cada \textit{merge}, foi extraída a quantidade total de bibliotecas do projeto, conforme demonstra o Código \ref{lst:script-libs}. Esse dado é fundamental para calcular a proporção entre as bibliotecas vulneráveis e o total de bibliotecas utilizadas, viabilizando assim a aferição da métrica relacionada ao SCA (\textit{Software Composition Analysis}).
+Outro ponto a ser destacado é que, para cada \textit{merge}, foi extraída a quantidade total de bibliotecas do projeto, conforme demonstra a Listagem \ref{lst:script-libs}. Esse dado é fundamental para calcular a proporção entre as bibliotecas vulneráveis e o total de bibliotecas utilizadas, viabilizando assim a aferição da métrica relacionada ao SCA (\textit{Software Composition Analysis}).
 
 \begin{lstlisting}[language=Python, caption={Script de Extração das Bibliotecas}, label={lst:script-libs}]
 def parse_dependency_counts(repo_path, commit_hashes):
