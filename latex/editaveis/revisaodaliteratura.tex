@@ -285,9 +285,9 @@ Nas subseções a seguir são apresentadas as respostas para as questões secund
     \end{itemize}
     \item Testes de Segurança
     \begin{itemize}
-        \item SAST, DAST, IAST: Ferramentas SAST executam testes estáticos, ou seja, são realizados apenas sobre o código-fonte, podendo indicar potenciais vulnerabilidades e más práticas, conhecidas como \textit{code smells}. Por outro lado, as ferramentas DAST analisam o \textit{software} em execução, o que possibilita testar o comportamento do sistema em uso. As ferramentas IAST, por sua vez, fornecem uma abordagem híbrida, incorporando características da análise estática e dinâmica; são modernas e possuem boa integração com ambientes de desenvolvimento contínuo \cite{Rajapakse2022}. 
+        \item SAST, DAST, IAST: Ferramentas SAST executam testes estáticos, ou seja, são realizados apenas sobre o código-fonte, podendo indicar potenciais vulnerabilidades e más práticas, conhecidas como \textit{code smells}. Por outro lado, as ferramentas DAST analisam o \textit{software} em execução, o que possibilita testar o comportamento do sistema em uso. As ferramentas de \textit{Interactive Application Security Testing} (IAST), por sua vez, fornecem uma abordagem híbrida, incorporando características da análise estática e dinâmica; são modernas e possuem boa integração com ambientes de desenvolvimento contínuo \cite{Rajapakse2022}. 
         \item \textit{Fuzz Testing}: O teste de \textit{fuzzing}, como também é conhecido, destaca-se entre as práticas de teste de segurança. Ele consiste em fornecer à aplicação entradas aleatórias, inválidas e inesperadas, de forma a verificar possíveis casos de borda não testados \cite{Masood2015}.
-        \item BDST: Os testes BDST são baseados no BDD, porém aplicados ao contexto de testes de segurança. Como os testes descrevem seu comportamento em linguagem natural, pessoas de fora da área de desenvolvimento e segurança de \textit{software} conseguem compreender os testes realizados \cite{Rangnau2020145}.
+        \item BDST: Os testes BDST \textit{Behavior Driven Security Testing} são baseados em \textit{Behavior Driven Development} (BDD), porém aplicados ao contexto de testes de segurança. Como os testes descrevem seu comportamento em linguagem natural, pessoas de fora da área de desenvolvimento e segurança de \textit{software} conseguem compreender os testes realizados \cite{Rangnau2020145}.
     \end{itemize}
     \item Infraestrutura
     \begin{itemize}
@@ -305,7 +305,7 @@ Nas subseções a seguir são apresentadas as respostas para as questões secund
 \begin{itemize}
     \item OWASP SAMM: O \textit{Software Assurance Maturity Model} é um modelo prescritivo de maturidade de segurança de \textit{software}, ou seja, ele informa quais atividades precisam ser realizadas, diferentemente de um modelo descritivo, que apenas descreve as atividades. Sua estrutura é adequada para diferentes tipos e tamanhos de empresas, bem como para distintas metodologias de desenvolvimento, como cascata e ágil \cite{Lange2024}.
     \item OWASP DSOMM: Embora baseado no SAMM, o \textit{DevSecOps Maturity Model} nasce devido à necessidade de um modelo adequado para ambientes \textit{DevOps}, onde a segurança é parte essencial do ciclo de vida. Também é prescritivo, mas, diferentemente do SAMM, suas atividades são definidas em um nível mais próximo do programador do que da gestão. Desse modo, ele fornece com detalhes técnicos os requisitos necessários para atingir cada um dos níveis de maturidade em suas diferentes dimensões \cite{Lange2024}.
-    \item BSIMM: Diferentemente dos outros, este é um modelo descritivo, ou seja, ele descreve atividades sem exigir que sejam implementadas. Outra diferença fundamental é que se trata de um modelo proprietário, mantido pela Synopsys. A aplicação do modelo, bem como sua metodologia de avaliação, só estão disponíveis mediante contratação dos serviços da empresa \cite{Lange2024}.
+    \item BSIMM: Diferentemente dos outros, o \textit{Building Security In Maturity Model} (BSIMM) é um modelo descritivo, ou seja, ele descreve atividades sem exigir que sejam implementadas. Outra diferença fundamental é que se trata de um modelo proprietário, mantido pela Synopsys. A aplicação do modelo, bem como sua metodologia de avaliação, só estão disponíveis mediante contratação dos serviços da empresa \cite{Lange2024}.
 \end{itemize}
 
 
@@ -356,7 +356,7 @@ Existem diversos tipos de falhas de segurança que podem ocorrer durante o proce
 \begin{quadro}[h]
     \centering
     \caption{Vulnerabilidades Reduzidas}
-    \begin{tabular}{|p{5cm}|p{8cm}|}
+    \begin{tabular}{|p{7cm}|p{8cm}|}
         \hline
         \textbf{Vulnerabilidade} & \textbf{Referência} \\
         \hline
@@ -364,17 +364,17 @@ Existem diversos tipos de falhas de segurança que podem ocorrer durante o proce
         \hline
         \textit{Command Injection} & \citeonline{Ramirez2020} \\
         \hline
-        \textit{XSS}  & \citeonline{Saeed2025139} \\
+        \textit{Cross-Site Scripting (XSS)}  & \citeonline{Saeed2025139} \\
         \hline
-        \textit{XXE} & \citeonline{Nocera2023418} \\
+        \textit{XML External Entity (XXE)} & \citeonline{Nocera2023418} \\
         \hline
         \textit{Buffer Overflow}  & \citeonline{Ramirez2020} \\
         \hline
-        \textit{CSRF}  & \citeonline{Kushwaha2024}  \\
+        \textit{Cross-Site Request Forgery (CSRF)}  & \citeonline{Kushwaha2024}  \\
         \hline
-        \textit{DDoS}  & \citeonline{Saeed2025139} \\
+        \textit{Distributed Denial of Service (DDoS)}  & \citeonline{Saeed2025139} \\
         \hline
-        \textit{MITM}  & \citeonline{Nocera2023418} \\
+        \textit{Man-in-the-Middle (MITM)}  & \citeonline{Nocera2023418} \\
         \hline
         \textit{Broken Authentication}  & \citeonline{Saeed2025139} \\
         \hline
@@ -384,7 +384,7 @@ Existem diversos tipos de falhas de segurança que podem ocorrer durante o proce
         \hline
         \textit{Session Hijacking}  & \citeonline{Kushwaha2024}  \\
         \hline
-        \textit{SSRF}  & \citeonline{Nocera2023418}  \\
+        \textit{Server-Side Request Forgery (SSRF)}  & \citeonline{Nocera2023418}  \\
         \hline
     \end{tabular} \\[0.5em]
     \label{tab:vulnerabilidades}
