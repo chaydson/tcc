@@ -45,7 +45,7 @@
 \contentsline {subsection}{\numberline {3.3.7}Quais ferramentas e tecnologias são usadas no \textit {DevSecOps}?}{60}{subsection.3.3.7}%
 \contentsline {subsection}{\numberline {3.3.8}Qual é o volume anual de publicações sobre \textit {DevSecOps} de 2009 a 2025?}{61}{subsection.3.3.8}%
 \contentsline {subsection}{\numberline {3.3.9}Quantos artigos foram publicados em periódicos acadêmicos?}{62}{subsection.3.3.9}%
-\contentsline {subsection}{\numberline {3.3.10}Quantos estudos têm validação experimental?}{62}{subsection.3.3.10}%
+\contentsline {subsection}{\numberline {3.3.10}Quantos estudos têm validação experimental?}{63}{subsection.3.3.10}%
 \contentsline {subsection}{\numberline {3.3.11}Caso o estudo tenha validação experimental, qual foi o tipo?}{63}{subsection.3.3.11}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Planejamento do Estudo de Caso}}{65}{chapter.4}%
