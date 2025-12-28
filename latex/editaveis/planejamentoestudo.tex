@@ -45,7 +45,7 @@ A Figura \ref{fig:organograma-equipes} apresenta o organograma das equipes envol
     Fonte: Autor
 \end{figure}
 
-Já a Figura \ref{fig:bpmn} apresenta uma visão em alto nível do processo de desenvolvimento do Brasil Participativo. Estão representadas na figura as atividades envolvidas no processo de melhoria contínua do projeto, dado que esse é o foco deste trabalho. O início do fluxo se dá com a definição dos novos requisitos a serem implementados, sendo que os mesmos são escritos como histórias de usuário. Posteriormente, essas histórias são documentadas e repassadas para o time de desenvolvimento, que é responsável por implementar as mudanças no código-fonte. Após a implementação, o código é submetido a uma série de testes automatizados e manuais para garantir sua qualidade e segurança. Após os testes serem executados, o time de segurança divulga os resultados para o time de desenvolvimento, que é responsável por corrigir as vulnerabilidades encontradas. Por fim, o código é integrado ao sistema principal pelo time de infraestrutura, concluindo o ciclo. 
+Já a Figura \ref{fig:bpmn} apresenta uma visão em alto nível do processo de desenvolvimento do Brasil Participativo. Estão representadas na figura as atividades envolvidas no processo de melhoria contínua do projeto, dado que esse é o foco deste trabalho. O início do fluxo se dá com a definição dos novos requisitos a serem implementados, sendo que os mesmos são escritos como histórias de usuário. Posteriormente, essas histórias são documentadas e repassadas para o time de desenvolvimento, que é responsável por implementar as mudanças no código-fonte. Após a implementação, o código-fonte é submetido a uma série de testes automatizados e manuais para garantir sua qualidade e segurança. Após os testes serem executados, o time de segurança divulga os resultados para o time de desenvolvimento, que é responsável por corrigir as vulnerabilidades encontradas. Por fim, o código-fonte é integrado ao sistema principal pelo time de infraestrutura, concluindo o ciclo. 
 
 Este estudo de caso concentrou-se nas etapas posteriores ao desenvolvimento e anteriores à entrada em produção. Nesse estágio, ferramentas de segurança foram executadas por meio do \textit{pipeline} de CI/CD para realizar a análise estática do código-fonte, bem como a análise dinâmica, que depende da implantação (\textit{deploy}), pois considera aspectos do comportamento em uso do produto.
 
@@ -106,7 +106,7 @@ A \citeonline{ISO25010} define a confidencialidade como a capacidade do sistema 
 
 Para coletar os dados necessários para a posterior avaliação das métricas foram necessárias diferentes fontes de dados. Primeiramente, as ferramentas SAST e SCA foram executadas diretamente no código-fonte. 
 Outra fonte de dados foi o sistema em uso, que foi usado para a obtenção dos dados referentes às ferramentas DAST que analisam o \textit{software} em execução.
-Adicionalmente, o orquestrador de CI/CD atuou como fonte de dados para coletar as tentativas falhas de integração do código, evidenciando a identificação de falhas pelas ferramentas.
+Adicionalmente, o orquestrador de CI/CD atuou como fonte de dados para coletar as tentativas falhas de integração do código-fonte, evidenciando a identificação de falhas pelas ferramentas.
 
 Por fim, a equipe técnica é identificada como fonte de dados dos formulários de avaliação ao final do estudo de caso, permitindo a análise qualitativa e triangulação dos resultados.
 
@@ -158,11 +158,11 @@ Para a análise de frequência de respostas do questionário, Métrica 2.2, a fr
 
 \section{Instrumentação}
 
-A instrumentação se refere às ferramentas que foram utilizadas para a realização do estudo de caso, aqui estão definidas as ferramentas usadas para a análise da segurança do sistema, controle de implementação do código, versionamento do código do \textit{pipeline} e coleta de informações da equipe.
+A instrumentação se refere às ferramentas que foram utilizadas para a realização do estudo de caso, aqui estão definidas as ferramentas usadas para a análise da segurança do sistema, controle de implementação do código-fonte, versionamento do código-fonte do \textit{pipeline} e coleta de informações da equipe.
 
 O Brakeman \footnote{\href{https://brakemanscanner.org/}{https://brakemanscanner.org/}} é uma ferramenta \textit{open source} de avaliação da qualidade e segurança do código-fonte. Ele realiza análise estática para detectar \textit{bugs}, vulnerabilidades e \textit{code smells} em várias linguagens. Ele fez parte das ferramentas \textit{white-box} integradas ao \textit{pipeline} realizando a análise estática de segurança de aplicação (SAST). Sua escolha deu-se em função da equipe já possuir experiência prévia com a ferramenta.
 
-O Trivy \footnote{\href{https://trivy.dev/latest/}{https://trivy.dev/latest/}} é um \textit{scanner} de segurança de código aberto. Ele é utilizado na análise de composição de \textit{software}, verificando as bibliotecas de terceiros do projeto, garantindo que componentes externos ao projeto não insiram vulnerabilidades no sistemas. Além disso, ele é capaz de buscar vulnerabilidades em \textit{containers} e configurações de infraestrutura como código. Ele complementou o SonarQube como ferramenta \textit{white-box}.
+O Trivy \footnote{\href{https://trivy.dev/latest/}{https://trivy.dev/latest/}} é um \textit{scanner} de segurança de código-fonte aberto. Ele é utilizado na análise de composição de \textit{software}, verificando as bibliotecas de terceiros do projeto, garantindo que componentes externos ao projeto não insiram vulnerabilidades no sistemas. Além disso, ele é capaz de buscar vulnerabilidades em \textit{containers} e configurações de infraestrutura como código. Ele complementou o SonarQube como ferramenta \textit{white-box}.
 
 O Zed Attach Proxy (ZAP) \footnote{\href{https://www.zaproxy.org/}{https://www.zaproxy.org/}} foi desenvolvido para encontrar problemas de segurança em aplicações \textit{web} em execução. Ele foi empregado para realizar a Análise Dinâmica de Segurança de Aplicação (DAST) em um ambiente de testes.
 

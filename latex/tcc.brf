@@ -12,9 +12,7 @@
 \backcite {owaspsamm}{{28}{1.1}{section.1.1}}
 \backcite {owasptop10_2021}{{28}{1.1}{section.1.1}}
 \backcite {cwe}{{28}{1.1}{section.1.1}}
-\backcite {uolpix}{{28}{1.1}{section.1.1}}
-\backcite {g1pix}{{28}{1.1}{section.1.1}}
-\backcite {vepix}{{28}{1.1}{section.1.1}}
+\backcite {react2025Vulnerability}{{28}{1.1}{section.1.1}}
 \backcite {Fitzgerald2017}{{28}{1.1}{section.1.1}}
 \backcite {LOPEZ2022111187}{{28}{1.1}{section.1.1}}
 \backcite {10.1145}{{29}{1.1}{section.1.1}}
@@ -151,7 +149,6 @@
 \backcite {Zhang2024160317}{{72}{4.8}{equation.4.8.3}}
 \backcite {DORA2024}{{73}{4.8}{equation.4.8.4}}
 \backcite {ISO27004}{{78}{5.3}{section.5.3}}
-\backcite {react2025Vulnerability}{{84}{6.1.1}{figure.6.16}}
 \backcite {DORA2024}{{86}{6.1.2}{subsection.6.1.2}}
 \backcite {ISO27004}{{87}{6.2}{section.6.2}}
 \backcite {ISO27004}{{87}{6.2}{section.6.2}}
